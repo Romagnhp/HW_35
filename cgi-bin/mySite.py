@@ -17,3 +17,4 @@ def assemblePage(namePage):
     creatureHtmlThurePython('end')
 
 assemblePage('form')
+
