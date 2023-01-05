@@ -1,0 +1,18 @@
+<div class="container" >
+
+    <form action="/cgi-bin/python_scripts/myForm.py" method="get">
+        <div class="row p-2" >
+            <div class=" col-12 col-xl-1"><label for="login">Логин</label></div>
+            <div class=" col-12 col-xl-2"><input type="text" id="login" name="login" placeholder="логин"></div>
+        </div>
+        <div class="row p-2" >
+            <div class="col-12 col-xl-1"><label for="password">Пароль</label></div>
+            <div class="col-12 col-xl-2"><input type="password" id="password" name="password" placeholder="пароль"></div>
+        </div>
+
+        <div>
+            <div class="col-12 col-xl-1 offset-xl-2">
+                <button id="checkPasword" type="submit" value="Send" >Отправить</button>
+            </div>
+        </div>
+    </form>

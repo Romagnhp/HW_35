@@ -1,10 +1,9 @@
-import cgi
 
 print("Content-type: text/html")
 print()
 
 def creatureHtmlThurePython(fileName):
-    with open ('cgi-bin/' + fileName + '.html', 'r') as file:
+    with open ('cgi-bin/html_pages/' + fileName + '.html', 'r') as file:
         temp = file.readlines()
         for tempLine in temp:
             print(tempLine, end='')
